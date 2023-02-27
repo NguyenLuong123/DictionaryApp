@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background="@color/cyan_50"
+    tools:context=".view.TranslateFragment">
+
+
+    <EditText
+        android:id="@+id/idEdtLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cyan_100"
+        android:layout_marginTop="50dp"
+        android:hint="Enter your text to translate"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <!--button to translate language of the input text-->
+    <Button
+        android:id="@+id/idBtnTranslateLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cyan_900"
+        android:text="Translate"
+        android:layout_gravity="center"
+        />
+
+    <!--text view to display the translated text-->
+    <TextView
+        android:id="@+id/idTVTranslatedLanguage"
+        android:layout_width="match_parent"
+        android:background="@color/cyan_200"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>
